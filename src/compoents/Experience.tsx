@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { title } from "process";
-import exp from "constants";
+//import { title } from "process";
+//import exp from "constants";
 
 const Experience: React.FC = () => {
     const experiences = [

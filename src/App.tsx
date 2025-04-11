@@ -22,7 +22,7 @@ const App: React.FC = () => {
               type='button'
               data-bs-toggle='collapse'
               data-bs-target='#navbarnav'
-              aria-controls='false'
+              //aria-controls='false'
               aria-label='Toggle navigation'
             >
               <span className='navbar-toggler-icon'></span>
@@ -62,7 +62,7 @@ const App: React.FC = () => {
       </div>
       <div>
       <footer className="bg-light text-center py-3 mt-5">
-        <p>&copy; 2025 Nisharahmad Contractor</p>
+        <p>&copy; 2025 Nisharahmad Contractor </p>
       </footer>
       </div>
     </Router>
