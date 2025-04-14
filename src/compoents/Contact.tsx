@@ -4,11 +4,11 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import exp from "constants";
 
-type formData = {
-    name: string;
-    email: string;
-    message: string;
-}
+//type formData = {
+//    name: string;
+//    email: string;
+//    message: string;
+//}
 
 const Contact: FC = () => {
     const [formData, setFormData] = useState({
