@@ -7,6 +7,7 @@ import Projects from './compoents/Project';
 import Certifications from './compoents/Certifications';
 import Contact from './compoents/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -30,22 +31,22 @@ const App: React.FC = () => {
             <div className='collapse navbar-collapse' id='navbarnav'>
               <ul className='navbar-nav'>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/'>Home</a>
+                  <Link className='nav-link active' to='/'>Home</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/skills'>Skills</a>
+                  <Link className='nav-link active' to='/skills'>Skills</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/experience'>Experience</a>
+                  <Link className='nav-link active' to='/experience'>Experience</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/projects'>Projects</a>
+                  <Link className='nav-link active' to='/projects'>Projects</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/certifications'>Certifications</a>
+                  <Link className='nav-link active' to='/certifications'>Certifications</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/contact'>Contact</a>
+                  <Link className='nav-link active' to='/contact'>Contact</Link>
                 </li>
               </ul>
             </div>
